@@ -190,6 +190,7 @@ th, td {
 	clear: left; ;
 	font-family: 'Mulish', sans-serif;
 	/*limpa o float de imagem de utensilios*/
+	color: rgb(0,0,0, 0.3);
 }
 
 /*p:first-line{
@@ -245,7 +246,7 @@ p:first-line{
 }
 
 .imagem-utensilios {
-	width: 120px;
+	width: calc(40% - 26px);
 	float: left;
 	margin: 0 20px 20px 0;
 }
@@ -284,12 +285,41 @@ p:first-line{
 }
 
 .imagem-beneficios {
-	width: 50%;
+	width: calc(45% - 26px);
 	float: right;
 	margin: 0 20px 20px 0;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 5px 10px 5px 2px black;
+
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3 ;
 }
 
 .video {
 	width: 560px;
 	margin: 2em auto;
 }
+
+/*main > p {
+background: red;
+}
+
+img + p {
+	background: blue;
+}
+
+img ~ p {
+	background: pink;
+}*/
+
+/*especifico no css*/
+
+/*.principal p:not(#missao) {
+	background: orange;
+}/*
+
+
+
