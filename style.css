@@ -192,6 +192,10 @@ th, td {
 	/*limpa o float de imagem de utensilios*/
 }
 
+.titulo-principal:first-letter{
+	font-weight: bold;
+}
+
 .titulo-principal: before {
 	content:"[";
 }
